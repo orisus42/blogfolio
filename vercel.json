@@ -1,5 +1,8 @@
 {
   "buildCommand": "npm install && node build.js",
   "outputDirectory": "dist",
-  "framework": null
+  "framework": null,
+  "rewrites": [
+    { "source": "/resume.pdf", "destination": "/now/files/resume.pdf" }
+  ]
 }
